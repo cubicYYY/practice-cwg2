@@ -1,0 +1,1 @@
+Run `cargo test` for a formal test.
