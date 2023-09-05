@@ -57,6 +57,7 @@ mod tests {
             .iter()
             .map(|c| char::from_u32(*c as u32 + 1).unwrap())
             .collect();
+        assert_eq!(origin, vec!['a', 'b', 'c', 'd', 'e']); // remains
         assert_eq!(generated, vec!['b', 'c', 'd', 'e', 'f']);
     }
 }
